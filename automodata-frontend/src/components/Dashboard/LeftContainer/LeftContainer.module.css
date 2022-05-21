@@ -1,0 +1,6 @@
+.left-container {
+    display: flex;
+    flex-direction: column;
+    flex: 3;
+    height: 100%;
+}

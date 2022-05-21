@@ -1,0 +1,57 @@
+.leading-car-top-section {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:space-between;
+    padding: 0 30px;
+}
+
+.leading-car-info-container {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.leading-car-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.leading-car-info-brand {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #4a4a4a;
+    margin-bottom: 5px;
+}
+
+.leading-car-info-model {
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: #000000;
+}
+
+.leading-car-info-sales {
+    text-align: right;
+    font-size: 1.2rem;
+    color: #4a4a4a;
+}
+
+.sales-bold {
+    font-weight: bold;
+}
+
+.leading-car-img-container {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 10px;
+}
+
+.leading-car-img-container img {
+    width: 100%;
+    height: 100%;
+}

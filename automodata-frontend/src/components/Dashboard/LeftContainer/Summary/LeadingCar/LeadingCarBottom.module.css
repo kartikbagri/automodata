@@ -1,0 +1,13 @@
+.leading-car-bottom-section {
+    display: flex;
+    flex-direction: column;
+    flex: 4;
+}
+
+.plot {
+    width: 100%;
+}
+
+.plot-info {
+    margin-top: 20px;
+}

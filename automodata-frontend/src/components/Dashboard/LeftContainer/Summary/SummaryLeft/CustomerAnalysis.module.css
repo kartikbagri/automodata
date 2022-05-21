@@ -1,0 +1,21 @@
+.customer-analysis-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    background-color: white;
+    padding: 10px;
+}
+
+.customer-analysis-section-title {
+    font-size: 1.2rem;
+    font-weight: lighter;
+    color: #4a4a4a;
+    text-align: center;
+    margin: 0;
+}
+
+.plot {
+    width: 80%;
+    height: 80%;
+}

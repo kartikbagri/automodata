@@ -1,0 +1,15 @@
+.leading-car-section {
+    flex: 2;
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.leading-car-section-title {
+    font-size: 1.5rem;
+    font-weight: 150;
+    margin: 0;
+    color: #4a4a4a;
+    margin-top: 10px;
+}

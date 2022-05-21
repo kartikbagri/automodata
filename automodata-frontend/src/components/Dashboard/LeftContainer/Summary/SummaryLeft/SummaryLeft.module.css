@@ -1,0 +1,6 @@
+.summary-left-section {
+    flex: 1;
+    display: flex;
+    margin-right: 12px;
+    flex-direction: column;
+}

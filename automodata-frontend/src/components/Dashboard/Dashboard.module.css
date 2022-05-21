@@ -1,0 +1,11 @@
+:root {
+    --navbar-height: 70px;
+    --dashboard-background-color: #F0F6FC;
+}
+
+.dashboard {
+    display: flex;
+    width: 100%;
+    height: calc(100vh - var(--navbar-height));
+    background-color: var(--dashboard-background-color);
+}
