@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import styles from './SalesAnalysis.module.css';
 import { Chart as ChartJS, ArcElement, Tooltip, Legend } from 'chart.js';
-import { Pie } from 'react-chartjs-2';
+import { Doughnut } from 'react-chartjs-2';
 ChartJS.register(ArcElement, Tooltip, Legend);
 
 const SalesAnalysis= () => {
@@ -70,7 +70,7 @@ const SalesAnalysis= () => {
                 </select>
             </div>
             <div className={styles['plot']}>
-                <Pie data={data} />
+                <Doughnut data={data} />
             </div>
         </div>
     );
