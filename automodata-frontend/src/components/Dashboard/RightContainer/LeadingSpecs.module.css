@@ -1,0 +1,6 @@
+.leading-specs-section {
+    display: flex;
+    flex: 1;
+    background-color: white;
+    margin-top: 12px;
+}
